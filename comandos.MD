@@ -25,3 +25,7 @@ git tag -a v0.0.1 -m "Alpha inicio de proyecto"
 //push a git
 
 git push -u origin main
+
+heroku config
+
+heroku config:set SEED="  "
